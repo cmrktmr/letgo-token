@@ -1,0 +1,39 @@
+.updateButton {
+  background-color: green;
+  border-color: green;
+  color: white;
+
+  &:hover {
+    background-color: darkgreen;
+    border-color: darkgreen;
+  }
+}
+
+.deleteButton {
+  background-color: red;
+  border-color: red;
+  color: white;
+
+  &:hover {
+    background-color: darkred;
+    border-color: darkred;
+  }
+}
+
+.addNewButton {
+  background-color: blue;
+  border-color: blue;
+  color: white;
+
+  &:hover {
+    background-color: darkblue;
+    border-color: darkblue;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

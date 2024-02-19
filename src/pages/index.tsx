@@ -1,4 +1,3 @@
-// src/pages/Home.tsx
 import { Card, Col, Row, message, Space, Button } from 'antd';
 import { PlusOutlined, RedoOutlined } from '@ant-design/icons';
 import { Chart } from 'react-google-charts';

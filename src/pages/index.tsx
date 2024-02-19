@@ -90,7 +90,7 @@ const Home: React.FC = () => {
           <Card loading={isLoading}>
             <Space>
               <Button icon={<PlusOutlined />} onClick={() => setIsModalOpen(true)} type="primary">Add Stock</Button>
-              <Button icon={<RedoOutlined />} onClick={() => refetch()} type="default">Refresh</Button>
+              <Button icon={<RedoOutlined />} onClick={() => refetch()} type="primary">Refresh</Button>
             </Space>
           </Card>
         </Col>
